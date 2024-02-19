@@ -21,6 +21,7 @@ inputs:
     description: 'Wait Rundeck job finish and print output'
     default: 'true'
     required: false
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
